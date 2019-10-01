@@ -12,7 +12,7 @@
 	padding-top: 2em;
 }
 
-.site-logo {
+.logo {
 	width: 110px;
 	align-self: center;
 }
@@ -45,7 +45,7 @@
 		height: 200px;
 		justify-content: flex-end;
 	}
-	.site-logo {
+	.logo {
 		width: 140px;
 	}
 	.nav {
@@ -62,7 +62,7 @@
 	.main-header {
 		flex-direction: row;
 	}
-	.site-logo {
+	.logo {
 		margin-right: auto;
 	}
 	.nav {
