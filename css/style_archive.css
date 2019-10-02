@@ -1,0 +1,135 @@
+/* --------------------------
+  Base Styles
+--------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.main-header,
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  padding-top: 2em;
+}
+
+.logo {
+  width: 110px;
+  align-self: center;
+}
+
+.nav {
+  margin-top: 1.5em;
+}
+
+.nav a {
+  display: block;
+  color: #797e83;
+  font-size: 1.125em;
+  font-weight: 300;
+  text-align: center;
+  padding: 0.4em;
+  border-bottom: 1px solid #ebecec;
+}
+
+.nav a:hover {
+  color: #0b0b0b;
+  border-bottom-color: #52bab3;
+}
+
+body {
+  color: #797e83;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: #656a6e;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.main-content {
+  margin-top: 3.25em;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+@media (min-width: 769px) {
+  .main-header {
+    height: 200px;
+    justify-content: flex-end;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .nav {
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav a {
+    border-bottom-color: transparent;
+  }
+}
+@media (min-width: 1025px) {
+  .main-header {
+    flex-direction: row;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  .nav {
+    margin-top: 0;
+    align-self: center;
+  }
+
+  .nav li {
+    margin-left: 0.65em;
+    margin-right: 0.65em;
+  }
+}
+@media (min-width: 769px) {
+  p {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2.5em;
+    -moz-column-count: 2;
+    -moz-column-gap: 2.5em;
+    column-count: 2;
+    column-gap: 2.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+
+/*# sourceMappingURL=style_archive.css.map */
